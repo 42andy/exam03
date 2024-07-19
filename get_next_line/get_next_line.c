@@ -29,7 +29,7 @@ char	*ft_strdup(char *str)
 	return (dest);
 }
 
-char *get_next_line(int fd)
+char	*get_next_line(int fd)
 {
 	char	buffer;
 	char	line[7000000];
