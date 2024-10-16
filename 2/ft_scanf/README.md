@@ -1,3 +1,6 @@
+## Subject
+
+```
 Assignment name  : ft_scanf
 Expected files   : ft_scanf.c
 Allowed functions: fgetc, ungetc, ferror, feof, isspace, isdigit, stdin, va_start, va_arg, va_copy va_end
