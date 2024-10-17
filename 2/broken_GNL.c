@@ -46,7 +46,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		return ft_memcpy(dest, src, n);
 	else if (dest = src)
 		return dest;
-	for (size_t i = ft_strlen((char *)src) -1; i > 0; i--);
+	for (size_t i = ft_strlen((char *)src) -1; i > 0; i--)
 		((char *)dest)[i] = ((char *)src[i]);
 	return dest;
 }
